@@ -1,0 +1,156 @@
+body {
+    width: 100%;
+}
+
+.nav {
+    height: 100%;
+
+}
+
+.header {
+    display: inline-flex;
+    position: static;
+
+    background-color: #242424;
+    height: 70px;
+}
+
+.block {
+    margin-left: 30px;
+    width: 20px;
+    background-color: #242424;
+}
+
+.logo {
+    height: 40px;
+    margin-top: 14px;
+    margin-left: 70px;
+
+}
+
+.title {
+    width: 160px;
+    margin-left: 0%;
+    margin-top: 18px;
+    color: rgb(249, 250, 246);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.faxian {
+    display: flex;
+    width: 550px;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 0px;
+}
+
+.faxian a {
+    color: #fbf7f7;
+    display: flex;
+    height: 70px;
+    padding: 0px 12px;
+    margin-left: 0px;
+    align-items: center;
+}
+
+
+.faxian a:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.em {
+    display: flex;
+    align-items: center;
+
+
+}
+
+input[type="search"] {
+    height: 30px;
+    color: #53585f;
+    width: 160px;
+    border-radius: 16px;
+    padding: 0 30px;
+    border: 3px solid #f1f2f3;
+    margin: 20px;
+    margin-left: 45px;
+    font-size: 10px;
+}
+
+#creat {
+    background: none;
+    height: 25x;
+    color: #ffffff;
+    width: 100px;
+    border-radius: 10px;
+    padding: 0 3px;
+    border: 1px solid white;
+    margin: 21px 2px;
+}
+
+.loging {
+    display: flex;
+    width: 63px;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.loging a {
+    color: #ffffff;
+    margin: 22px 14px;
+}
+
+.nav-nav {
+    height: 35px;
+    background-color: rgb(225, 73, 73);
+    margin-top: 0 auto;
+
+}
+
+.nav-bar {
+    display: flex;
+    height: 2px;
+    background-color: (225, 73, 73);
+}
+
+.nav-content {
+    display: flex;
+    position: inherit;
+    height: 33px;
+    background: (255, 73, 73);
+    width: 680px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    margin-left: 285px;
+
+}
+
+.nav-content ul {
+    display: inline-flex;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.nav-content a {
+    color: #e4ebe1;
+    display: flex;
+    margin-left: 20px;
+    font-size: 15px;
+
+}
+
+
+.nav-content a:hover {
+
+    color: #fff;
+    background-color: #eb8686;
+
+    border: #f1f2f3;
+    border-radius: 8px;
+}
