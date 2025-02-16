@@ -43,13 +43,13 @@ body {
     display: flex;
     width: 550px;
     flex-wrap: nowrap;
-    font-size: 20px;
+    font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px 0px;
 }
 
 .faxian a {
-    color: #fbf7f7;
+    color: #e9dfdf;
     display: flex;
     height: 70px;
     padding: 0px 12px;
@@ -57,13 +57,11 @@ body {
     align-items: center;
 }
 
-#初始 {
-    color: #fff;
-    background-color: #000;
-}
 
 
-.faxian a:hover {
+
+.faxian a:hover,
+.faxian.a.active {
     color: #fff;
     background-color: #000;
 }
@@ -152,12 +150,6 @@ input[type="search"] {
 
 }
 
-#推荐 {
-    color: #fff;
-    background-color: #6e2121;
-    border: #f1f2f3;
-    border-radius: 8px;
-}
 
 
 .nav-content a:hover {
