@@ -7,17 +7,76 @@
 }
 
 .images-background {
-    width: 982px;
+    display: flex;
+    width: 100%;
     height: 284px;
-    background-color: #1e9c74;
+    flex-wrap: nowrap;
+    background-image: url(../images/image1.png);
+    background-size: 1000%;
+
+}
+
+
+
+
+.button-earea4 {
+    width: 140px;
+    opacity: 0.5;
+}
+
+.button-earea-rit {
+    width: 153px;
+    opacity: 0.5;
 }
 
 .images {
     display: flex;
+    align-items: flex-end;
     width: 730px;
     height: 284px;
-    margin-left: 140px;
-    background-color: #5065c4;
+    position: relative;
+
+    align-items: flex-start;
+    background-color: #ececee;
     overflow: hidden;
 
+}
+
+.slide {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+
+}
+
+.slide.active {
+    opacity: 1;
+
+}
+
+.下载客户端 {
+    display: flex;
+    width: 250px;
+    height: 284px;
+    background-color: #166f2b;
+}
+
+.left-button {
+    width: 55px;
+    height: 80px;
+    opacity: 0.5;
+    margin: 102px 34px;
+    background-image: url(../icon/箭头left.png);
+    background-size: 55px 80px;
+    border: none;
+}
+
+.rit-button {
+    width: 55px;
+    height: 80px;
+    opacity: 0.5;
+    margin: 102px 34px;
+    background-image: url(../icon/箭头right.png);
+    background-size: 55px 80px;
+    border: none;
 }
