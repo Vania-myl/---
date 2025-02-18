@@ -1,13 +1,11 @@
 body {
     width: 100%;
 }
-
 .nav {
     height: 100%;
     width: 100%;
 
 }
-
 .header {
     display: flex;
     position:static;
@@ -19,8 +17,6 @@ body {
     height: 70px;
     ;
 }
-
-
 .logo {
     display: flex;
     height: 40px;
@@ -30,7 +26,6 @@ body {
     
 
 }
-
 .title {
     white-space: nowrap;
     position: sticky;
@@ -42,9 +37,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-
-
-
 .faxian {
     display: flex;
     flex-wrap: nowrap;
@@ -53,7 +45,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px 0px;
 }
-
 .faxian a {
     color: #e9dfdf;
     display: flex;
@@ -64,23 +55,14 @@ body {
     
 
 }
-
-
-
-
 .faxian a:hover,
 .faxian a.active {
     color: #fff;
     background-color: #000;
 }
-
-
 em {
     display: inline-block;
     white-space:nowrap;
-    
-
-
 }
 .search{
     display:flex;
@@ -123,12 +105,10 @@ em {
     border-radius: 20px;
     font-size: 12px;
 }
-
 .author a:hover{
     color: #fff;
     border-color: #fff;
 }
-
 #creat {
     background: none;
     height: 25x;
@@ -139,7 +119,6 @@ em {
     border: 1px solid white;
     margin: 21px 9px;
 }
-
 .loging {
 
     display: flex;
@@ -149,7 +128,6 @@ em {
     margin-left: 20px;
     margin-right: 10px;
 }
-
 .loging a {
     color: #787878;
     margin: 22px 14px;
@@ -159,7 +137,6 @@ em {
 .loging a:hover{
     color: #ccc;
 }
-
 .nav-nav {
     height: 35px;
     background-color: #c62b2b;
@@ -169,13 +146,11 @@ em {
 
 
 }
-
 .nav-bar {
     display: flex;
     height: 2px;
     background-color: #c62b2b;
 }
-
 .nav-content {
     display: flex;
     height: 33px;
@@ -185,23 +160,16 @@ em {
     align-items: center;
 
 }
-
 .nav-content ul li{
     display: inline-block;
     padding-right: 30px;
     
 }
-
 .nav-content a {
     color: #e4ebe1;
     font-size: 12px;
     padding: 2px 7px
 }
-
-
-
-
-
 .nav-content a:hover,
 .nav-content a.active {
 

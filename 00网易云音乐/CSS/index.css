@@ -1,0 +1,584 @@
+body {
+    width: 100%;
+}
+.nav {
+    height: 100%;
+    width: 100%;
+
+}
+.big-header {
+    display: flex;
+    position:static;
+    flex-wrap: nowrap;
+    width: 100%;
+    
+    
+    background-color: #242424;
+    height: 70px;
+    ;
+}
+.logo {
+    display: flex;
+    height: 40px;
+    margin-top: 16px;
+    margin-right: 180px;
+    margin-left: 60px;
+    
+
+}
+.big-title {
+    white-space: nowrap;
+    position: sticky;
+    width: 160px;
+    margin-left: -140px;
+    margin-top: 18px;
+    color: rgb(249, 250, 246);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.faxian {
+    display: flex;
+    flex-wrap: nowrap;
+    
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 0px;
+}
+.faxian a {
+    color: #e9dfdf;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0px 20px;
+    margin-left: 0px;
+    
+
+}
+.faxian a:hover,
+.faxian a.active {
+    color: #fff;
+    background-color: #000;
+}
+/* em {
+    display: inline-block;
+    white-space:nowrap;
+} */
+.search{
+    display:flex;
+    align-items: center;
+    width: 163px;
+    height: 32px;
+    background-color: #fff;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 30px;
+    background-image: url('../icon/icon/搜索.png') ;
+    background-size:25px;
+    background-position: 6px 5px;
+    background-repeat: no-repeat;
+    white-space: nowrap;
+}
+.search input{
+    display: inline-block;
+    width: 120px;
+    margin-left: 35px;
+    margin-right: 20px;
+    color: #787878;
+    
+}
+.author{
+    display: flex;
+    align-items: center;
+    
+}
+.author a{
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+    line-height: 27px;
+    text-align: center;
+    color: #ccc;
+    border: 1px solid #4F4F4F;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.author a:hover{
+    color: #fff;
+    border-color: #fff;
+}
+#creat {
+    background: none;
+    height: 25x;
+    color: #ffffff;
+    width: 100px;
+    border-radius: 10px;
+    padding: 0 3px;
+    border: 1px solid white;
+    margin: 21px 9px;
+}
+.loging {
+
+    display: flex;
+    width: 63px;
+    margin-top: 7px;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.loging a {
+    color: #787878;
+    margin: 22px 14px;
+    white-space: nowrap;
+
+}
+.loging a:hover{
+    color: #ccc;
+}
+.nav-nav {
+    height: 35px;
+    background-color: #c62b2b;
+    margin-top: 0 auto;
+    
+    
+
+
+}
+.nav-bar {
+    display: flex;
+    height: 2px;
+    background-color: #c62b2b;
+}
+.nav-content {
+    display: flex;
+    height: 33px;
+    background: (255, 73, 73);
+    margin: -1px auto;
+    margin-left: 250px;
+    align-items: center;
+
+}
+.nav-content ul li{
+    display: inline-block;
+    padding-right: 30px;
+    
+}
+.nav-content a {
+    color: #e4ebe1;
+    font-size: 12px;
+    padding: 2px 7px
+}
+.nav-content a:hover,
+.nav-content a.active {
+
+    color: #fff;
+    background-color: #6e2121;
+
+    border: #f1f2f3;
+    border-radius: 8px;
+}
+/* 内容页 */
+.content{
+    width: 980px;
+    margin: auto;
+}
+.erea{
+    display: flex;
+
+    justify-content: space-between;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+    
+    background-image: url('../images/content-bc.png');
+}
+/* 左侧 */
+.erea-left{
+    width: 729px;
+    
+    padding: 20px 20px 40px;
+}
+/* 右侧 */
+.erea-right{
+    width: 250px;
+    
+}
+.little-loging{
+    width: 250px;
+    height: 126px;
+    background:url('../images/content-icon.png')
+}
+.little-loging .desc{
+    width: 205px;
+    margin: 0 auto;
+    padding-top: 16px;
+    color:#666;
+    font-size: 12px;
+    line-height: 22px;
+}
+.loging-button{
+    display: block;
+    width: 100px;
+    height: 31px;
+    margin: 16px auto;
+    line-height: 31px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background:url('../images/content-icon.png') 0 -195px;
+    text-shadow: rgb(83, 32, 32);
+}
+.入驻 ,.热门主播{
+    padding: 20px;
+}
+.入驻 .list .item{
+    display: flex;
+    width: 210px;
+    height: 62px;
+    margin-bottom: 13px;
+    background-color: #fafafa;
+    
+}
+.入驻 .list .information{
+    border: 1px solid #ccc;
+    border-left: none;
+    flex: 1;
+    padding-left: 10px;
+
+}
+.information .singer{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+.information .desc{
+    font-size: 12px;
+    color: #666;
+    margin-top: 13px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 138px;
+    
+}
+/* 按钮 */
+.apply{
+    display: block;
+    width: 190px;
+    height: 28px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    text-align: center;
+    margin: 0px 28px;
+    line-height: 31px;font-size: 12px;
+    color: #000;
+    border-radius: 3px;
+}
+.commend .list{
+    display: flex;
+    flex-wrap:wrap;
+    
+    padding: 20px ;
+    margin: 0;
+
+}
+.commend .list .item{
+    display: inline-block;
+
+    height: 200px;
+    width: 140px;
+    margin-bottom: 30px;
+    margin: 11px;
+}
+.commend .list .desc{
+    display: inline-block;
+    margin: 8px 0 3px;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.4;
+    vertical-align: middle;
+}
+.new-disc .content-erea{
+    height: 186px;
+    position: relative;
+    margin: 20px 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border:1px solid #d3d3d3 ;
+    background-color: #f5f5f5;
+}
+.content-erea .roller{
+height: 100%;
+width: 640px;
+display: flex;
+overflow: hidden;
+align-items: center;
+}
+.roller .list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    flex-shrink: 0;
+    margin-left: 30px;
+
+    padding: 0;
+}
+.roller .list .item{
+    width: 118px;
+    height: 150px;
+    background: url('../images/content-icon.png') no-repeat -260px 100px;
+}
+.roller .list .item .album {
+    position: relative;
+}
+.roller .list .item .cover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url('../icon/icon/disc.png') no-repeat 0 -570px;
+}
+.roller .item .album .play{
+    display: none;
+    position:absolute;
+    right: 20px;
+    bottom: 5px;
+    width: 22px;
+    height: 22px;
+background: url('../icon/icon/play.png') no-repeat 0 -85px;    
+}
+.roller .item .album:hover .play{
+    display: block;
+     
+}
+.roller .item .name{
+    font-size: 12px;
+    color: #000;
+    display: block;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.roller .item .desc{
+    font-size: 12px;
+    color: #666;
+    display: block;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    margin-right: 10px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.content-erea .control{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    margin-top: -102px;
+    background: url('../images/content-icon.png') no-repeat ;
+}
+.content-erea .control-left{
+left: 10px;
+background-position: -260px -75px;
+}
+.content-erea .control-right{
+    right: 10px;
+    background-position: -320px -75px;
+    }
+.rank-content .rank{
+    width: 230px;
+}
+.rank .rank-content{
+    display: flex;
+    height: 472px;
+    margin-top: 20px;
+    background: url('../images/rank-bc.png') no-repeat ;
+}
+.rank .header{
+    height: 120px;
+    padding: 20px 0 0 19px;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+.rank .header .album{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+.rank .header .album img{
+    width: 100%;
+    height: 100%;
+}
+.rank .header .album .cover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: url('../icon/icon/disc.png');
+}
+.rank .header .info{
+    padding: 10px 12px;
+}
+.info .button{
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background: url('../images/content-icon.png') no-repeat ;
+}
+.info .play{
+    background-position: -267px -205px;
+}
+.info .like{
+    background-position: -300px -205px;
+    margin-left: 6px;
+}
+.info .op{
+    margin-top: 12px;
+}
+.rank .list{
+    padding-top: 0px;
+    margin-top: -14px;
+    margin-left: -17px;
+}
+.rank .item{
+    display: flex;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 0px;
+}
+.rank .item .num{
+    width: 35px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #666;
+}
+.rank .item .song{
+    font-size: 12px;
+    color: #666;
+
+} 
+.up-list .more{
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    text-align: right;
+    padding-right: 30px;
+    margin-top: -18px;
+    font-size: 12px;
+    color: #666;
+}
+.rank .new{
+ 
+}
+/* 轮播图 */
+.swiper{
+    height: 285px;
+    background: url('../images/bc-images3.1.jpg') center center ;
+    background-size: 7000px;
+    margin-top: -16px;
+}
+.swiper-container{
+    position: relative; 
+    width: 980px;
+    height: 285px;
+    margin: 0 auto;
+}
+.area-left{
+    width: 730px;
+    height: 285px;
+    position: relative;
+
+}
+
+/* 图片列表 */
+.image-list{
+    display: flex;
+    width: 730px;
+    padding-inline-start: 0;
+    overflow: hidden;
+}
+.image-list li{
+    flex-shrink: 0;
+    width: 100%;
+
+}
+.image-list.item{
+    display: block;
+}
+.swiper .image-list img{   
+     width: 100%;}
+
+/* 点列表 */
+.dots-list{
+    display: flex;
+    position: relative;
+    
+    bottom: 42px;
+    left: 287px;
+    width: 170px;
+    height: 20px;
+   padding: 0;
+    
+    justify-content: space-evenly;
+}
+.dots-list a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+    background-color: #1f7023;
+    background: url('../icon/icon/image-icon.png') 3px -343px;
+}
+.dots-list a.active,
+.dots-list a:hover{
+    background-position: -16px -343px;
+}
+.area-right{
+    position: absolute;
+    right: -1px;
+    width: 254px;
+    height: 285px;
+    top:0;
+    bottom: 0;
+    background-color: #a24141;
+    background: url('../images/download.png') ;
+}
+.download{
+    display: block;
+    width: 215px;
+    height: 56px;
+    margin: 186px 0 0 19px;
+
+}
+.s-button{
+    width: 37px;
+    height: 63px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+    background-image: url('../icon/icon/image-icon.png');
+    
+}
+.left{
+    left: -75px;
+    background-position: 0 -360px;
+}
+.right{
+    right: -75px;
+    background-position: 0 -508px;
+}
+.left:hover{
+    background-position: 0 -430px;
+}
+.right:hover{
+    background-position: 0 -578px;
+}
