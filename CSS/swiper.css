@@ -1,0 +1,102 @@
+.swiper{
+    height: 285px;
+    background: url('../images/bc-images3.1.jpg') center center ;
+    background-size: 7000px;
+}
+.swiper-container{
+    position: relative; 
+    width: 980px;
+    height: 285px;
+    margin: 0 auto;
+}
+.area-left{
+    width: 730px;
+    height: 285px;
+    position: relative;
+
+}
+
+/* 图片列表 */
+.image-list{
+    display: flex;
+    width: 730px;
+    padding-inline-start: 0;
+    overflow: hidden;
+}
+.image-list li{
+    flex-shrink: 0;
+    width: 100%;
+
+}
+.image-list.item{
+    display: block;
+}
+img{
+    width: 100%;
+}
+/* 点列表 */
+.dots-list{
+    display: flex;
+    position: relative;
+    
+    bottom: 42px;
+    left: 287px;
+    width: 170px;
+    height: 20px;
+   padding: 0;
+    
+    justify-content: space-evenly;
+}
+.dots-list a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+    background-color: #1f7023;
+    background: url('../icon/image-icon.png') 3px -343px;
+}
+.dots-list a.active,
+.dots-list a:hover{
+    background-position: -16px -343px;
+}
+.area-right{
+    position: absolute;
+    right: -1px;
+    width: 254px;
+    height: 285px;
+    top:0;
+    bottom: 0;
+    background-color: #a24141;
+    background: url('../images/download.png') ;
+}
+.download{
+    display: block;
+    width: 215px;
+    height: 56px;
+    margin: 186px 0 0 19px;
+
+}
+.button{
+    width: 37px;
+    height: 63px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+    background-image: url('../icon/image-icon.png');
+    
+}
+.left{
+    left: -75px;
+    background-position: 0 -360px;
+}
+.right{
+    right: -75px;
+    background-position: 0 -508px;
+}
+.left:hover{
+    background-position: 0 -430px;
+}
+.right:hover{
+    background-position: 0 -578px;
+}

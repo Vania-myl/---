@@ -27,7 +27,7 @@ code,
 del,
 dfn,
 em,
-img,
+
 ins,
 kbd,
 q,
@@ -104,6 +104,9 @@ video {
     text-decoration: none;
 
 }
+img{
+    vertical-align: middle;
+}
 
 
 
@@ -139,6 +142,8 @@ body {
 ul {
 
     list-style: none;
+    padding-inline-start: 0;
+
 
 }
 
@@ -173,4 +178,8 @@ table {
 
     border-spacing: 0;
 
+}
+input{
+    outline: none;
+    border: none;
 }

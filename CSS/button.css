@@ -1,0 +1,26 @@
+.superButton{
+    display: inline-block;
+    background-image: url('../images/button-img.png') ;
+    line-height: 31px;
+    text-align: center;
+}
+.button_01_sup{
+    background-position:  right -100px;
+    padding-right: 5px;
+}
+.button_01_sub{
+background-position: 0 -59px;
+padding-left: 3px;
+}
+.button_02_sup{
+    background-position: right -1020px;
+    padding-right: 5px;
+}
+.button_02_sub{
+    display: inline-block;
+    background-position: 0 -977px;
+    padding-left: 28px;
+    padding-right: 4px;
+
+}
+

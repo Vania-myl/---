@@ -1,0 +1,97 @@
+.content{
+    width: 980px;
+    margin: auto;
+}
+.erea{
+    display: flex;
+
+    justify-content: space-between;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+    
+    background-image: url('../images/content-bc.png');
+}
+/* 左侧 */
+.erea-left{
+    width: 729px;
+    
+    padding: 20px 20px 40px;
+}
+/* 右侧 */
+.erea-right{
+    width: 250px;
+    
+}
+.little-loging{
+    width: 250px;
+    height: 126px;
+    background:url('../images/content-icon.png')
+}
+.little-loging .desc{
+    width: 205px;
+    margin: 0 auto;
+    padding-top: 16px;
+    color:#666;
+    font-size: 12px;
+    line-height: 22px;
+}
+.loging-button{
+    display: block;
+    width: 100px;
+    height: 31px;
+    margin: 16px auto;
+    line-height: 31px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background:url('../images/content-icon.png') 0 -195px;
+    text-shadow: rgb(83, 32, 32);
+}
+.入驻 ,.热门主播{
+    padding: 20px;
+}
+.入驻 .list .item{
+    display: flex;
+    width: 210px;
+    height: 62px;
+    margin-bottom: 13px;
+    background-color: #fafafa;
+    
+}
+.入驻 .list .information{
+    border: 1px solid #ccc;
+    border-left: none;
+    flex: 1;
+    padding-left: 10px;
+
+}
+.information .singer{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+.information .desc{
+    font-size: 12px;
+    color: #666;
+    margin-top: 13px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 138px;
+    
+}
+/* 按钮 */
+.apply{
+    display: block;
+    width: 190px;
+    height: 28px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    text-align: center;
+    margin: 0px 28px;
+    line-height: 31px;font-size: 12px;
+    color: #000;
+    border-radius: 3px;
+
+}

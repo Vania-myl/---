@@ -3,3 +3,4 @@ const img = document.getElementsByClassName('slide')
 if (images.slide.opacity == 1) {
     imagesBackground.backgroundImage = img.src
 }
+const n=0

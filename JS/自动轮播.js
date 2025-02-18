@@ -19,6 +19,6 @@ setInterval(nextSlide, 3000);
 
 
 showSlide(currentIndex)
-
+let n=0
 
 
