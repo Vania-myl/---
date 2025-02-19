@@ -292,6 +292,15 @@ body {
     margin-bottom: 30px;
     margin: 11px;
 }
+.commend .list .bottom{
+    width: 140px;
+    height: 27px;
+    
+}
+
+.commend .list .bottom .player{
+    background: url('../icon/icon/play.png') no-repeat;
+}
 .commend .list .desc{
     display: inline-block;
     margin: 8px 0 3px;
@@ -483,7 +492,6 @@ background-position: -260px -75px;
     height: 285px;
     background: url('../images/bc-images3.1.jpg') center center ;
     background-size: 7000px;
-    margin-top: -16px;
 }
 .swiper-container{
     position: relative; 
@@ -495,6 +503,7 @@ background-position: -260px -75px;
     width: 730px;
     height: 285px;
     position: relative;
+    overflow: hidden;
 
 }
 
@@ -503,7 +512,8 @@ background-position: -260px -75px;
     display: flex;
     width: 730px;
     padding-inline-start: 0;
-    overflow: hidden;
+    transition:transform 0.5ms ease-in-out;
+    margin-top: 0;
 }
 .image-list li{
     flex-shrink: 0;
@@ -529,7 +539,7 @@ background-position: -260px -75px;
     
     justify-content: space-evenly;
 }
-.dots-list a{
+.dots-list .item{
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -537,8 +547,8 @@ background-position: -260px -75px;
     background-color: #1f7023;
     background: url('../icon/icon/image-icon.png') 3px -343px;
 }
-.dots-list a.active,
-.dots-list a:hover{
+.dots-list .item.active,
+.dots-list .item:hover{
     background-position: -16px -343px;
 }
 .area-right{

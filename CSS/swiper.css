@@ -5,23 +5,28 @@
 }
 .swiper-container{
     position: relative; 
-    width: 980px;
+    /* width: 980px; */
     height: 285px;
+    width: 980px;
     margin: 0 auto;
 }
 .area-left{
     width: 730px;
     height: 285px;
     position: relative;
+    overflow: hidden;
+    
 
 }
 
 /* 图片列表 */
 .image-list{
     display: flex;
-    width: 730px;
+    width: 100%;
     padding-inline-start: 0;
-    overflow: hidden;
+    
+    transition:transform 0.5s ease-in-out;
+    margin-top: 0px;
 }
 .image-list li{
     flex-shrink: 0;
@@ -29,7 +34,7 @@
 
 }
 .image-list.item{
-    display: block;
+    display: block
 }
 img{
     width: 100%;
@@ -76,14 +81,16 @@ img{
     margin: 186px 0 0 19px;
 
 }
-.button{
+.control .button{
     width: 37px;
     height: 63px;
     position: absolute;
-    top:0;
-    bottom: 0;
+    top:50%;
+    bottom: 80px;
     margin: auto 0;
     background-image: url('../icon/image-icon.png');
+    transform: translateY(-50%);
+    cursor: pointer;
     
 }
 .left{
@@ -91,7 +98,8 @@ img{
     background-position: 0 -360px;
 }
 .right{
-    right: -75px;
+    right: -75px; 
+    
     background-position: 0 -508px;
 }
 .left:hover{
